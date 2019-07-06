@@ -1,0 +1,1546 @@
+
+/* -------------- Scrollbar Start ------------- */
+ 
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+border: 1px solid #19B5FE;
+    border-radius: 10px;
+} 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #19B5FE; 
+    border-radius: 10px;
+} 
+.banner1{ 
+    height: 166px;
+    margin-bottom: 5%;
+    width: 100%;
+    cursor: pointer;
+}
+.nav-menu-centered li > a:hover{
+    color: #fff;
+}
+.slider_image{
+    height: 350px;
+    width: 100%;
+}
+/* -------------- Scrollbar End ------------- */
+
+/* ------------- Cart Button Start ------------- */
+ .add_cart{ 
+    margin-right: -15px;
+    color: #fff;
+    background-color: #03a9f4; 
+    display: inline-block;
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 5px 14px 6px;
+    text-transform: uppercase;
+    border-radius: 50px;
+    z-index: 1;
+} .add_cart:hover{ 
+    margin-right: -15px;
+    color: #fff;
+    background-color: #03a9f4; 
+    display: inline-block;
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 5px 14px 6px;
+    text-transform: uppercase;
+    border-radius: 50px;
+    z-index: 1;
+}
+
+/* ------------- Cart Button End ------------- */
+
+/* =======================================
+    1. Header Top Section Start
+======================================= */
+.logo_img{
+    height: 40px;
+}
+.top_header_area{
+    background-color: #ddd;
+    padding: 4px;
+} 
+
+.top-banner-left{
+    float:left;
+    width:40%;
+}
+.top-banner-left ul{
+    padding:0;
+    margin:0;
+}
+.top-banner-left ul li{
+    display:inline-block; 
+    font-size:.875em;
+}
+.top-banner { 
+    padding: .5em 0;
+    color: #000;
+    font-weight: lighter;
+    background-color: #EEEEEE;
+    border-bottom: solid 1px rgba(255, 255, 255, 0.23);
+}
+.top-banner-right{
+    float:right;
+}
+.top-banner-right .btn-sm{
+    border-radius: 0px; 
+}
+.top-banner-right ul{
+    padding:0;
+    margin:0;
+}
+.top-banner-right ul li{
+    display:inline-block;
+}
+.top-banner-right ul li:nth-child(4){
+    margin-right:0;
+}
+.top-banner-right ul li a{ 
+    font-size:1em;  
+}
+.top-banner-right ul li a:hover{
+    color: #2196F3;
+}
+.location{
+    font-size: 14px;
+}
+.facebook{
+    height: 30px;
+    width: 30px;
+}.facebook> i{
+    padding-left: -10px;
+}
+.top-fb{
+    background: #4267B2;
+    color: #fff;
+    transition: ease-in-out .3s;
+}
+.top-fb:hover{
+    background: #fff;
+    color: #4267B2!important;
+    transition: ease-in-out .3s;
+}
+.top-tw{
+    background: #1DA1F2;
+    color: #fff;
+    transition: ease-in-out .3s;
+}
+.top-tw:hover{
+    background: #fff;
+    color: #1DA1F2!important;
+    transition: ease-in-out .3s;
+}
+
+.top-ln{
+    background: #0077B5;
+    color: #fff;
+    transition: ease-in-out .3s;
+}
+.top-ln:hover{
+    background: #fff;
+    color: #0077B5!important;
+    transition: ease-in-out .3s;
+} 
+.top-gp{
+    background: #DD5144;
+    color: #fff;
+    transition: ease-in-out .3s;
+}
+.top-gp:hover{
+    background: #fff;
+    color: #DD5144!important;
+    transition: ease-in-out .3s;
+}
+/* .top_font_size{
+    font-size: 14px;
+    padding-top: 4px;
+    font-weight: lighter;
+}
+.phone_text{ 
+    padding-top: 5px;
+    display: inline-block;
+}
+.top-fb{
+    background: #4267B2;
+    color: #fff;
+    transition: ease-in-out .3s;
+}
+.top-fb:hover{
+    background: #fff;
+    color: #4267B2!important;
+    transition: ease-in-out .3s;
+}
+.top-tw{
+    background: #1DA1F2;
+    color: #fff;
+    transition: ease-in-out .3s;
+}
+.top-tw:hover{
+    background: #fff;
+    color: #1DA1F2!important;
+    transition: ease-in-out .3s;
+}
+
+.top-ln{
+    background: #0077B5;
+    color: #fff;
+    transition: ease-in-out .3s;
+}
+.top-ln:hover{
+    background: #fff;
+    color: #0077B5!important;
+    transition: ease-in-out .3s;
+}
+.top_header_area{
+    height: auto;
+    border-bottom: 1px solid #6f6161;
+    font-weight: normal;
+    font-size: 16px;
+}
+.top_right a{
+    color: #fff; 
+    width: 30px;
+    height: 29px;
+    margin-top: -1px;
+    border-radius: 0px;
+}
+.top_right a:hover{
+    color:#000;
+}  */
+.shipping_area.shipping_four {
+    border: 1px solid #ddd;
+}
+ 
+.single_shipping.single_sp_four {
+    border-bottom: 1px solid #ddd;
+    min-height: 0;
+    padding: 26px 0 23px;
+    align-items: center;
+}
+.f_active_four.owl-carousel .owl-nav div {
+    top: -37px;
+} 
+/* 2.9 small product css here*/
+.top_title h2 { 
+    text-transform: uppercase;
+    color: #fff;
+    background: #ea3a3c;
+    padding: 10px 20px;
+    line-height: 18px;
+    font-size: 16px;
+    font-weight: 700;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 0;
+}
+.top_title h2::before {
+    position: absolute;
+    content: "";
+    width: 40px;
+    height: 40px;
+    border: 20px solid transparent;
+    border-left: 20px solid #ea3a3c;
+    top: 0;
+    right: -40px;
+}
+.top_title {
+    border-bottom: 3px solid #ea3a3c;
+}
+/* home page four css end*/
+/* =======================================
+    1. Header Top Section Start
+======================================= */ 
+/* =======================================
+    1. Section Title Section Start
+======================================= */ 
+.section-title-furits > h2 {
+    color: #434343;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 0.2px;
+    margin: 25px 0 0;
+    position: relative;
+}
+.section-title-furits > h2::before {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto; 
+    content: "";
+    height: 2px;    
+    background-color: #19B5FE;
+    bottom: -13px;
+    text-align: center;
+    width: 80px;
+}
+
+/* =======================================
+    1. Section Title Section End
+======================================= */  
+
+/* =======================================
+    2. Header  Section Start
+======================================= */  
+
+.single-banner {
+    position: relative;
+    overflow: hidden;
+}
+.single-banner img {
+    width: 100%;
+}
+.banner-content-style1 {
+    left: 0;
+    padding: 30px 42px;
+    position: absolute;
+    top: 232px;
+}
+.banner-content-style2 {
+    left: 0;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 30px;
+}
+.banner-content.banner-content-style3 {
+    bottom: 185px;
+    left: 0;
+    padding: 30px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+}
+.banner-content-style1 > h2 {
+    color: #383838;
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 1;
+    margin-bottom: 9px;
+}
+.banner-content-style1 > h2 span {
+    color: #0275e6;
+}
+.banner-content-style1 > p {
+    color: #666666;
+    font-size: 16px;
+    line-height: 26px;
+    width: 62%;
+    margin: 0;
+}
+.banner-content-style2 > span {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.banner-content-style2 > h2 {
+    color: #ffffff;
+    font-size: 70px;
+    font-weight: bold;
+    margin: 7px 0 12px;
+    text-transform: uppercase;
+}
+.banner-content-style2 > p {
+    color: #ffffff;
+    font-size: 24px;
+    margin: 0;
+    text-transform: uppercase;
+}
+.banner-content-style3 > h2 {
+    color: #fff;
+    font-size: 70px;
+    font-weight: bold;
+    line-height: 75px;
+    margin: 0;
+}
+/* .single-banner a img {
+    transition: all 0.3s ease 0s;
+    -webkit-transition: all 0.3s ease 0s;
+    width: 100%;
+}
+.single-banner:hover a img {
+    transform: scale(1.1) rotate(-5deg);
+} */
+.single-banner-statics img { 
+    transition: ease-in-out .3s;
+}
+.single-banner-statics:hover img {
+    opacity: 0.7;
+    transition: ease-in-out .3s;
+}
+
+/* =======================================
+    2. Header  Section End
+======================================= */  
+ 
+/* =======================================
+    3. Shipping  Section Start
+======================================= */  
+
+.single_shipping {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background: #b2b2b2;
+    min-height: 66px;   
+}
+.shippin_icone {
+    background: rgba(0,0,0,0.1);
+    width: 70px;
+    text-align: center;
+    margin-right: 15px;
+}
+.shippin_icone i {
+    font-size: 40px;
+    color: #fff;
+    line-height: 66px;
+}
+.shipping_content{
+    padding: 15px 0;
+}
+.shipping_content h3 {
+    color: #fff;
+    font-size: 12px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-weight: 700;
+} 
+
+/* =======================================
+    3. Shipping  Section End
+======================================= */  
+
+/* =======================================
+    4.  Category Banner Section Start
+======================================= */ 
+
+.furits-banner-wrapper:hover .furits-banner-content > h4 , .furits-banner-wrapper:hover .furits-banner-content > p , .furits-banner-wrapper:hover .furits-banner-content > a {
+    animation: 900ms ease-in-out 0s normal none 1 running fadeInUp;
+}
+   
+.furits-banner-wrapper > img {
+    width: 100%;
+}
+.furits-banner-wrapper {
+    position: relative;
+}
+.furits-banner-content {
+    left: 0;
+    padding: 35px 40px;
+    position: absolute;
+    top: 0;
+}
+.furits-banner-content > h4 {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 800;
+    font-family: 'Open Sans', sans-serif;
+}
+.furits-banner-content > p {
+    color: #ffffff;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    margin: 18px 0;
+    width: 88%;
+}
+.furits-banner-btn {
+    background-color: #fff;
+    border-radius: 50px;
+    color: #ffb102;
+    display: inline-block;
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 5px 14px 6px;
+    text-transform: uppercase;
+    z-index: 1;
+}
+.furits-banner-btn:hover {
+    color: #FFC702;
+}
+.furits-banner-btn.btn-hover::before {
+    border-radius: 50px;
+}
+.furits-banner-wrapper{
+  cursor: pointer;
+}
+  
+.furits-banner-wrapper {
+    overflow: hidden;
+    transition: all .3s ease 0s;
+}  
+.furits-banner-wrapper > img {
+    width: 100%;
+    transition: all 0.3s ease 0s;
+} 
+.furits-banner-wrapper:hover img {
+    transform: scale(1.1);
+}
+
+ /* =======================================
+    4.  Category Banner Section End
+======================================= */  
+  /* =======================================
+    4.  Product Slider Section Start
+======================================= */  
+ 
+.single_popular_item .product_description {
+    padding: 30px;
+}
+
+.first_img{
+    height: 200px;
+    width: 50%;
+}
+  /* =======================================
+    4.  Product Slider Section End
+======================================= */  
+
+ /* =======================================
+    4.  Product List  Section Start
+======================================= */  
+.product_image_div > img{
+    height: 300px;
+    width: 100%; 
+}
+.card-img-top{
+    height: 160px;
+    width: 100%;
+}
+.anchor_tag{
+    color: #3a3a3a;
+}
+.anchor_tag:hover{
+    color: #3a3a3a;
+}
+.product_list{
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0); 
+    transition: ease-in-out .3s;
+}
+.product_list:hover{
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.15);
+    border-radius: 10px 10px 10px 10px;
+    transition: ease-in-out .3s;
+}
+.product_list .details{
+    display: none;
+    animation: ease-in-out 0.9s normal none 1 running fadeInRight;
+
+}
+.product_list:hover .details{
+    display: block;
+    animation: ease-in-out 0.3s normal none 1 running fadeInRight; 
+
+}
+.product_footer{
+    background: #F6F6F6;
+    transition: ease-in-out .3s;
+}
+/* .product_list:hover >.product_footer{
+    transition: ease-in-out .3s;
+} */
+
+ /* =======================================
+    4.  Product List Section End
+======================================= */  
+
+/* =======================================
+      Login Section Style Start
+======================================= */
+
+.required{
+    color: red;
+}
+.main_content_area.my_account {
+    padding: 10px 0 50px;
+}
+.login_form form {
+    border: 1px solid #d3ced2;
+    padding: 20px;
+    border-radius: 5px;
+}
+.login_title h2 {
+    font-size: 30px;
+    text-transform: capitalize;
+    color: #222222;
+    font-weight: 700;
+    line-height: 34px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.login_input input {
+    border: 1px solid #e5e5e5; 
+    border-radius:0px;
+    height: 32px;
+    max-width: 100%;
+    padding: 0 0 0 10px;
+    background: none;
+    display: inline-block;
+}
+.login_input {
+    margin-bottom: 15px;
+}
+.login_submit button{
+    background: #444;
+    border: 0;
+    color: #fff;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 700;
+    height: 38px;
+    line-height: 18px;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    cursor: pointer;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+.login_submit button {
+    margin-right: 10px;
+}
+.login_submit button:hover{
+    background:  #19B5FE;
+}
+.login_submit label input[type="checkbox"] {
+    width: inherit;
+    height: inherit;
+    margin-right: 3px;
+}
+.login_submit {
+    margin-bottom: 15px;
+}
+.login_form form a {
+    font-size: 14px;
+    color: #ea3a3c;
+    float: right;
+    line-height: 42px;
+}
+
+.form-group {
+    margin-bottom: 25px;
+}
+
+.form-control {
+    border: 1px solid rgba(221, 221, 221, 1);
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    height: 45px;
+    border-radius: 0;
+    -webkit-box-shadow: 0 7px 13px 0 rgba(72, 194, 78, 0.02), 0 0px 15px 0 rgba(72, 194, 78, 0.09);
+    box-shadow: 0 7px 13px 0 rgba(72, 194, 78, 0.02), 0 0px 15px 0 rgba(72, 194, 78, 0.09);
+}
+
+
+.form-control:hover {
+    border-width: 1px;
+    border-style: solid;
+}
+
+.form-control:focus {
+    border-width: 1px;
+    border-style: solid;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    outline: 0 none;
+    webkit-box-shadow: 0 7px 21px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 7px 21px 0 rgba(0, 0, 0, 0.1);
+}
+/* =======================================
+    Login Section Style End
+======================================= */ 
+
+/* =======================================
+    Page Header Section Style Start
+======================================= */ 
+.page_image{ 
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    background-image:url(./img/bg-img/55.jpg);
+    background-color: #19B5FE;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.page_name{
+    font-weight: 600;
+    font-size: 36px; 
+    color: #fff; 
+    padding-top: 5%;
+}
+.page_title{
+    font-weight: 400;
+    font-size: 22px; 
+    color: #fff; 
+    padding-bottom: 2%;
+}
+/* =======================================
+      Page Header Section Style End
+======================================= */ 
+
+/* =======================================
+     Contact Section Style Start
+======================================= */  
+.contact_title.contact_two h2 {
+    font-size: 30px;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+.contact_title.contact_two p {
+    font-size: 13px;
+    font-style: italic;
+}
+.contact_title.contact_two {
+    text-align: center;
+    margin-bottom: 40px;
+} 
+.location__area {
+  text-align: center;
+}
+.location_icone {
+  display: inline-block;
+  position: relative;
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  border: 3px solid #ea3a3c;
+  border-radius: 50%;
+}
+.location_icone::before {
+    font-style: normal;
+    font-weight: 400;
+    display: inline-block;
+    text-decoration: inherit;
+    width: inherit;
+    height: inherit;
+    font-size: 1em;
+    text-align: center;
+    text-rendering: optimizelegibility;
+}
+.location_icone i {
+    color: #fff;
+    font-size: 30px;
+}
+.location_icone::after {
+    pointer-events: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    content: '';
+    z-index: -1;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    top: -2px;
+    left: -2px;
+    padding: 2px;
+    background: #ea3a3c;
+    -webkit-transition: opacity 0.2s, -webkit-transform 0.2s;
+    transition: opacity 0.2s, -webkit-transform 0.2s;
+    transition: transform 0.2s, opacity 0.2s;
+    transition: transform 0.2s, opacity 0.2s, -webkit-transform 0.2s;
+}
+.location_icone:hover::after{
+    -webkit-transform: scale(0.85);
+    transform: scale(0.85);
+    background: #ea3a3c;
+}
+.location_icone {
+    display: inline-block;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    border: 3px solid #ea3a3c;
+    border-radius: 50%;
+    margin-bottom: 35px;
+}
+.location__area h2 {
+    font-size: 20px;
+    margin: 0 0 25px;
+    text-transform: capitalize;
+    color: #222222;
+    font-weight: 700;
+}
+.location__area p {
+    font-size: 13px;
+}
+.communication_area {
+    padding: 48px 0 80px;
+} 
+/* =======================================
+     Contact Section Style End
+======================================= */ 
+
+/* =======================================
+    Temptale  Page Cart Style Start
+======================================= */ 
+
+/* -----Layout Shopping Cart----- */
+.cart-accordion-wrapper h3 {
+    color: #111;
+}
+
+.shopping-cart-wrapper .table {
+    text-align: center;
+}
+
+.shopping-cart-wrapper .table thead td {
+    color: #111;
+    font-weight: 600;
+}
+
+.shopping-cart-wrapper .table td,
+.shopping-cart-wrapper .table th {
+    border-width: 1px;
+}
+
+.shopping-cart-wrapper .table td,
+.table-bordered td,
+.table-bordered th {
+    vertical-align: middle;
+}
+
+.shopping-cart-wrapper .table td a {
+    color: #111;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.shopping-cart-wrapper .table img {
+    max-width: 120px;
+}
+
+.shopping-cart-wrapper .table span {
+    display: block;
+    font-size: 12px;
+}
+
+.shopping-cart-wrapper .table .cart-input {
+    margin-right: 10px;
+} 
+.shopping-cart-wrapper .table button {
+    height: 40px;
+}
+
+.shopping-cart-wrapper .table button:first-child {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    margin-right: -2px;
+}
+
+.shopping-cart-wrapper .table .input-group {
+    max-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.shopping-cart-wrapper strong {
+    font-weight: 500;
+}
+
+.cart_input {
+    height: 40px;
+    width: 70px;
+    line-height: 25px;
+}
+.shopping-cart-wrapper input,
+.shopping-cart-wrapper .nice-select {
+    height: 40px;
+    line-height: 25px;
+}
+
+.shopping-cart-wrapper .input-group {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.shopping-cart-wrapper .card {
+    margin-bottom: 5px;
+}
+
+.shopping-cart-wrapper .card-body {
+    padding: 30px;
+}
+
+.shopping-cart-wrapper .card-body input[type="button"] {
+    margin-left: 10px;
+}
+
+.shopping-cart-wrapper .card-header {
+    padding: 0;
+}
+
+.shopping-cart-wrapper .card-header i {
+    float: right;
+}
+
+.shopping-cart-wrapper .card-header a {
+    color: #fff;
+    background-color: #19B5FE;
+    display: block;
+    padding: 15px;
+}
+.ship_check_btn{
+    font-weight: 600;
+}
+/* =======================================
+    Temptale  Page Cart Style End
+======================================= */ 
+
+/* =======================================
+    Temptale  Page My Account  Style Start
+======================================= */ 
+ 
+.user-info {
+    border-bottom: 1px solid #ebebeb;
+    border-top: 1px solid #ebebeb;
+}
+
+.user-info [class*="col-"]:not(:last-child) .single-info {
+    border-right: 1px solid #ebebeb;
+}
+
+.user-info .single-info {
+    padding: 0 20px;
+    min-height: 110px;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.user-info .single-info p a {
+    color: #111;
+}
+
+.user-info .user-name span {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.user-info .user-name::before {
+    color: #555;
+    content: "\f2bd";
+    font-family: fontawesome;
+    font-size: 20px;
+    padding-right: 10px;
+    left: 0;
+    top: 0;
+    height: 45px;
+    line-height: 45px;
+    vertical-align: middle;
+}
+
+.user-info p {
+    line-height: 1.65;
+}
+
+.dashboard-list {
+    padding: 3px 15px;
+    border: 1px solid #ebebeb;
+}
+
+.dashboard-content p a {
+    color: #111;
+}
+
+.dashboard-list li>a {
+    color: #111;
+    display: block;
+    font-size: 14px;
+    padding: 12px 0;
+    text-transform: capitalize;
+    position: relative;
+}
+
+.dashboard-list li>a.active {
+    font-weight: 500;
+}
+
+.dashboard-list li>a.active::after {
+    content: "\f105";
+    font-family: fontawesome;
+    margin-left: 10px;
+    font-size: 16px;
+    top: 48%;
+    right: -35px;
+    margin-top: -10px;
+    position: absolute;
+}
+
+.dashboard-list li:not(:last-child)>a {
+    border-bottom: 1px solid #ebebeb;
+}
+
+.dashboard-content {
+    border: 1px solid #ebebeb;
+    padding: 30px;
+}
+
+.dashboard-content h3 {
+    border-bottom: 1px solid #ebebeb;
+    font-size: 24px;
+    line-height: 24px;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    text-transform: capitalize;
+}
+
+.dashboard-content p {
+    line-height: 24px;
+}
+
+.dashboard-content table>thead {
+    border-bottom: 1px solid #ebebeb;
+}
+
+.dashboard-content table>thead>tr>th {
+    font-size: 14px;
+    font-weight: 500;
+    border: 0;
+}
+
+.dashboard-content table>tbody>tr>td {
+    border: 0;
+    vertical-align: middle;
+}
+
+.dashboard-content table .btn-secondary {
+    height: 35px;
+    text-transform: capitalize;
+}
+
+.billing-address {
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+/* =======================================
+    Temptale  Page Cart Style Start
+======================================= */ 
+
+/* =======================================
+    5. Temptale Footer Section Start
+======================================= */ 
+/* .footer_section{
+    background-color: #F4F5F6;
+    color: #000;
+}
+.con-moree{
+    margin-top: 20%;
+    padding: 10px;
+    color: #000;
+    border-left: 4px solid #19B5FE;
+}
+
+.foo_link{ 
+    padding: 4px;
+    padding-left: 0px;
+    font-size: 16px; 
+    display:block;
+    font-weight: bolder;
+}
+.foo_link:hover{ 
+    display:block;  
+    padding: 4px;
+    padding-left: 0px;
+    font-size: 16px;
+    pointer-events: cursor;
+} 
+.foo_link>.fa:hover{
+    text-decoration: underline;
+}
+.footer_brief{
+    font-size: 13px;
+    padding-top: 10%; 
+}
+.section_padding_90{
+    padding-top: 100px;
+    padding-left: 0px;
+    padding-right: 0px; 
+}
+.copyright{
+    font-size: 13px;
+    letter-spacing: 1px;
+    padding: 2%;
+}
+.copyright>a:hover{  
+    text-decoration: underline;
+}
+ */
+
+/* =======================================
+    5. Modal Section End
+======================================= */
+ .modal-body{
+    /* background: url('./img/slider/19.jpg'); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 70%;
+    width: 100%;
+} 
+#subscribeModal .modal-content{
+    overflow:hidden;
+    border-radius: 0;
+}
+a.h2{
+    color:#007b5e;
+    margin-bottom:0;
+    text-decoration:none;
+}a.h2:hover{
+    color:#007b5e!important;
+    margin-bottom:0;
+    text-decoration:none;
+}
+#subscribeModal .form-control {
+    height: 40px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    padding-left:30px;
+}
+#subscribeModal .btn {
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    padding-right:20px;
+    background:#007b5e;
+    border-color:#007b5e;
+}
+#subscribeModal .form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #007b5e;
+    outline: 0;
+    box-shadow: none;
+}
+#subscribeModal .top-strip{
+    height: 155px;
+    background: #007b5e;
+    transform: rotate(141deg);
+    margin-top: -94px;
+    margin-right: 190px;
+    margin-left: -130px;
+    border-bottom: 65px solid #4CAF50;
+    border-top: 10px solid #4caf50;
+}
+#subscribeModal .bottom-strip{
+    height: 155px;
+    background: #007b5e;
+    transform: rotate(112deg);
+    margin-top: -110px;
+    margin-right: -215px;
+    margin-left: 300px;
+    border-bottom: 65px solid #4CAF50;
+    border-top: 10px solid #4caf50;
+}
+
+/**************************/
+/****** modal-lg stips *********/
+/**************************/
+#subscribeModal .modal-lg .top-strip {
+    height: 155px;
+    background: #007b5e;
+    transform: rotate(141deg);
+    margin-top: -106px;
+    margin-right: 457px;
+    margin-left: -130px;
+    border-bottom: 65px solid #4CAF50;
+    border-top: 10px solid #4caf50;
+}
+#subscribeModal .modal-lg .bottom-strip {
+    height: 155px;
+    background: #007b5e;
+    transform: rotate(135deg);
+    margin-top: -115px;
+    margin-right: -339px;
+    margin-left: 421px;
+    border-bottom: 65px solid #4CAF50;
+    border-top: 10px solid #4caf50;
+}
+
+/****** extra *******/
+#Reloadpage{
+    cursor:pointer;
+}  
+
+/* =======================================
+    5. Modal  Section End
+======================================= */
+/* =======================================
+    5. Single Product Details  Section Start
+======================================= */
+.single_product_sharing_social.fa-facebook.fa-twitter.fa-linkedin{
+    
+}
+/* =======================================
+    5. Single Product Details  Section End 
+======================================= */
+/* =======================================
+    5. Top Seller  Section Start 
+======================================= */
+
+/* 23.8 Product Best seller style of fruits */
+
+.single-top-seller {
+    align-items: center;
+    background-color: #fafafa;
+    display: flex;
+    margin-bottom: 30px;
+}
+.single-top-seller:last-child {
+    margin-bottom: 0px;
+}
+.top-seller-img {
+    margin-right: 25px;
+}
+.top-seller-content > h5 {
+    color: #434343;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+    margin: 0;
+}
+.top-seller-content > h5 a {
+    color: #434343;
+}
+.fruit-price > span {
+    color: #85bd02;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+}
+.fruit-price > span.old {
+    color: #9e9e9e;
+    font-size: 14px;
+    text-decoration: line-through;
+}
+.top-seller-content > a {
+    color: #434343;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+}
+.top-seller-content > a:hover,
+.top-seller-content > h5 a:hover {
+    color: #85bd02;
+}
+.fruit-price {
+    margin: 2px 0;
+}
+.top-seller-title > span {
+    color: #696969;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.top-seller-title > h3 {
+    color: #434343;
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin: 2px 0 11px;
+}
+.top-seller-title {
+    margin-bottom: 36px;
+}
+.fruits-top-seller-area {
+    position: relative;
+}
+.fruits-top-seller-area:before {
+    content: url(../img/banner/12.png);
+    position: absolute;
+    left: 0;
+    top: 0px;
+    bottom: auto;
+    z-index: -1;
+}
+.fruits-top-seller-area:after {
+    content: url(../img/banner/13.png);
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+/* =======================================
+    5. Top Seller  Section End 
+======================================= */
+ 
+
+.footer_area {
+    background-color: #F6F6F6;
+    color: #000!important;
+}
+
+.footer_heading > h6 {
+    color: #000;
+    text-transform: capitalize;
+}
+
+.footer_content > p {
+    color: #000;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.footer_content > p:first-child {
+    margin-bottom: 30px;
+}
+
+.footer_social_area > a {
+    color: #000;
+    display: inline-block;
+    font-size: 14px;
+    margin-right: 5px;
+}
+
+.footer_social_area > a:hover {
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+}
+
+.footer_widget_menu a {
+    color: #000;
+    display: block;
+    font-size: 13px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    -webkit-transition-duration: 500ms;
+    transition-duration: 500ms;
+}
+
+.footer_widget_menu a:hover {
+    color: #000;
+    margin-left: 5px;
+}
+
+.footer_widget_menu a i {
+    padding-right: 5px;
+}
+
+.subscribtion_form {
+    position: relative;
+    z-index: 1;
+}
+
+.subscribtion_form .mail {
+    border: 1px solid #ddd;
+    border-radius: 30px;
+    font-size: 13px;
+    height: 40px;
+    padding: 5px 15px;
+    width: 100%;
+    background-color: transparent;
+    color: #000;
+}
+
+.home-3 .subscribtion_form .mail {
+    color: #555;
+}
+
+.subscribtion_form .submit {
+    background-color: transparent;
+    border: none;
+    border-radius: 0 30px 30px 0;
+    color: #000;
+    cursor: pointer;
+    font-size: 13px;
+    height: 38px;
+    position: absolute;
+    right: 1px;
+    text-transform: uppercase;
+    top: 1px;
+    -webkit-transition-duration: 500ms;
+    transition-duration: 500ms;
+    width: 70px;
+}
+
+ 
+.home-3 .subscribtion_form .submit {
+    color: #3a3a3a;
+}
+
+.subscribtion_form .submit:hover {
+    background-color: rgba(0, 150, 136, 0.8);
+    color: #000;
+}
+
+.footer_bottom_area {
+    padding-top: 50px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    margin-top: 50px;
+}
+
+.apps_download a img {
+    display: inline-block;
+    margin-right: 10px;
+    max-width: 90px;
+    border-radius: 6px;
+}
+
+.copywrite_text {
+    height: 30px;
+}
+
+.copywrite_text > p {
+    color: #000;
+    font-size: 14px;
+    margin: 0;
+}
+
+.copywrite_text a {
+    color: #000;
+}
+
+.payment_method > img {
+    height: 30px;
+    width: auto;
+    display: inline-block;
+}
+
+/* =======================================
+    5. Temptale Footer Section End
+======================================= */
+
+/* ------------------------------
+:: 18.0 Product Sidebar Area CSS
+------------------------------ */
+
+.custom-checkbox .custom-control-indicator {
+    border-radius: 50%;
+}
+
+.custom-control-input:checked ~ .custom-control-indicator {
+    background-color: #00bcd4;
+    color: #fff;
+    box-shadow: none !important;
+}
+
+.widget-title {
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.widget-desc label {
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.widget.rating .widget-desc a {
+    color: #ff9800;
+    font-size: 14px;
+}
+
+.widget.size .widget-desc li {
+    display: inline-block;
+}
+
+.widget.size .widget-desc a {
+    background-color: #19B5FE;
+    color: #fff;
+    display: block;
+    font-size: 14px;
+    padding: 5px 10px;
+}
+
+.widget.size .widget-desc a:hover {
+    background-color: #3a3a3a;
+}
+
+.widget.price .ui-slider-handle {
+    background-color: #19B5FE;
+    border: none;
+    border-radius: 50%;
+}
+
+.widget.price .ui-slider-range.ui-corner-all.ui-widget-header {
+    background-color: #19B5FE;
+}
+
+.widget.price .ui-slider-horizontal {
+    height: 12px;
+}
+
+.widget.price .range-price {
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 15px;
+    text-transform: uppercase;
+}
+
+.grid_view > a,
+.list_view > a {
+    font-size: 22px;
+}
+
+.search_by_terms {
+    display: inline-block;
+    float: right;
+}
+
+.shop_pagination_area .page-link {
+    border: none;
+    color: #3a3a3a;
+}
+/* ------------------------
+:: 19.0 List Shop Page CSS
+------------------------ */
+
+.shop_list_product_area .single_arrivals_slide .product_image {
+    overflow: hidden;
+    width: 270px;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 270px;
+            flex: 0 0 270px;
+}
+
+.shop_list_product_area .single_arrivals_slide .product_description {
+    position: relative;
+    text-align: left;
+    z-index: 1;
+    padding: 20px;
+    width: calc(100% - 270px);
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 calc(100% - 270px);
+            flex: 0 0 calc(100% - 270px);
+}
+
+.shop_list_product_area .single_arrivals_slide .product_description > h5 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.shop_list_product_area .single_arrivals_slide .product_description h6 {
+    font-size: 18px;
+}
